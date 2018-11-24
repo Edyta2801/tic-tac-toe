@@ -1,13 +1,14 @@
 import React from 'react'
+import Board from './Board'
 
 class Game extends React.Component {
     render() {
         return(
         <div>
             <Game>
-                <Game-board>
+                <div>
                     <Board />
-                </Game-board>
+                </div>
                 <Game-info>
                     <div>{}</div>
                     <ol>{}</ol>
